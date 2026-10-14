@@ -1,0 +1,13 @@
+VizClick NormalCrafter ComfyUI integration
+
+The original VizClick integration code in this package is licensed under Apache-2.0; see LICENSE.txt.
+
+Vendored NormalCrafter Python implementation files in vendor/normalcrafter/ are from:
+https://github.com/Binyr/NormalCrafter
+They retain their upstream MIT license; see vendor/normalcrafter/LICENSE.txt.
+
+NormalCrafter model weights are not bundled. Download them separately from:
+https://huggingface.co/Yanrui95/NormalCrafter
+Review and follow the license and terms shown in the model repository.
+
+The upstream implementation fallback in bootstrap.py only fetches missing Python source files. It does not download model weights.

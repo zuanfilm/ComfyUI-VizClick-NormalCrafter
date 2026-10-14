@@ -1,0 +1,5 @@
+# PyTorch is provided by the user's ComfyUI installation.
+diffusers
+transformers
+accelerate
+opencv-python>=4.8

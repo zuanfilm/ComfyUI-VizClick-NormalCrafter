@@ -1,0 +1,25 @@
+[project]
+name = "vizclick-normalcrafter"
+version = "1.0.0"
+description = "ComfyUI nodes for video normal-map estimation with NormalCrafter and motion-aware temporal stabilization."
+requires-python = ">=3.10"
+license = { file = "LICENSE.txt" }
+authors = [{ name = "zuanfilm" }]
+dependencies = [
+    "diffusers",
+    "transformers",
+    "accelerate",
+    "opencv-python>=4.8",
+]
+classifiers = [
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Repository = "https://github.com/zuanfilm/ComfyUI-VizClick-NormalCrafter"
+Documentation = "https://github.com/zuanfilm/ComfyUI-VizClick-NormalCrafter#readme"
+"Bug Tracker" = "https://github.com/zuanfilm/ComfyUI-VizClick-NormalCrafter/issues"
+
+[tool.comfy]
+PublisherId = "zuanfilm"
+DisplayName = "VizClick NormalCrafter"

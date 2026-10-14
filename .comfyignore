@@ -1,0 +1,11 @@
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+
+# Local development artifacts
+.venv/
+venv/
+.git/
+*.zip
+.DS_Store
+Thumbs.db
